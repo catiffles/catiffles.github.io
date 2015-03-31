@@ -17,3 +17,5 @@ categories:
   An associated array can contain an array of arrays, splitting up the data to make it more accessible. The data is sorted into different categories in the associated array, and makes looking up a certain element much easier. For example, instead of looking through all your clothes for a blue shirt, you go directly to your shirt rack and only look through your shirts. This allows for an O(N/k) lookup time, which may seem to be the same as O(N) since k is a constant, but with a lot of data, this can improve time significantly.
 
   A set can be seen like a Venn diagram. We can use sets when we have elements that have different attributes, with some shared attributes. For example, blogs with categories. Blogs can have different categories that also belong to other blogs, but not always share the same category. The differences between a set and an array are elements can be associated with multiple sets, sets are not indexed or ordered, and duplicate values cannot exist within a set.
+
+  More tomorrow!
